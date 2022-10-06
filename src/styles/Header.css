@@ -1,0 +1,15 @@
+
+.header {
+    background:#193C40;
+    height: 200px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+    color: #A62B1F;
+    font-size: '50px';
+    font-family: 'Montserrat'; 
+  }
+  
