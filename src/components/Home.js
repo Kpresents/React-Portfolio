@@ -7,9 +7,9 @@ import '../styles/Home.css';
 
 function Home() {
   return (
-    <div   className='home container-fluid border border-dark rounded lead font-weight-light align-center  w-50  card-body'>
+    <div   className='home container-fluid border border-dark rounded border-bottom-0 w-50 card-body'>
 
-
+      <div  className='lead font-weight-light'>
       <p>
         I am a first generation Mexican-American, born and raised in the City of Los Angeles. I graduated
         from CSULA in Film and Media Studies.
@@ -22,7 +22,7 @@ function Home() {
         for a tech company called Yospace, which is based out of the UK. This is why I am now going to UCLA's
         Coding Bootcamp to better understand how the engineers and project scope all function as one.
       </p>
-
+      </div>
     </div >
   );
 } 
