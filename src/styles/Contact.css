@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;400&family=Bree+Serif&family=El+Messiri&family=Kaushan+Script&family=Luckiest+Guy&family=Montserrat:wght@200;300&family=Pompiere&family=Russo+One&family=Shrikhand&display=swap');
+
+
+.contact{
+    font-family: 'Kaushan Script'; 
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    color: black;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+
+}
+
+.contact a{
+   font-weight: bolder;
+    font-family: 'Assistant', sans-serif;
+    
+}

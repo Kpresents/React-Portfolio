@@ -5,7 +5,7 @@ import '../styles/Header.css';
 
 const styles = {
   headerStyle: {
-    background: '#003840',
+    background: '#085159',
   
   },
 
@@ -15,7 +15,7 @@ const styles = {
 
 function Header() {
   return (
-    <header style={styles.headerStyle} className="header">
+    <header style={styles.headerStyle} className="header flex jumbotron w-100 h-100 ">
       <h1> Carolina Hernandez</h1>
      
     </header>

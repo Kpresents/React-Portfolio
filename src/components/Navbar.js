@@ -5,7 +5,7 @@ import '../styles/Navbar.css';
 
 const styles = {
   navbarStyle: {
-    background: '#B57114',
+    background: '#0D7369',
     fontSize:"19px",
     
   },
@@ -15,20 +15,20 @@ const styles = {
 
 function Navbar({handlePageChange}) {
   return (
-    <div style= {styles.navbarStyle} className="nav-container" expand="lg" sticky="top">
-      <nav class="navbar-expand-lg">
-        <div class="container">
+    <div style= {styles.navbarStyle} classNameName="nav-container flex" expand="lg" sticky="top">
+      <nav classNameName="navbar-expand-lg">
+        <div classNameName="container">
 
 
-          <ul class="nav justify-content-end ">
-            <li class="nav-item">
-              <a class="nav-link" href="#" onClick={()=> handlePageChange ('Home')} >About Me</a>
+          <ul className="nav justify-content-end ">
+            <li className="nav-item">
+              <a className="nav-link link-dark" href="#"  onClick={()=> handlePageChange ('Home')} >About Me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" onClick={()=> handlePageChange('Portfolio')}>Portfolio</a>
+            <li className="nav-item">
+              <a className="nav-link link-dark" href="#" onClick={()=> handlePageChange('Portfolio')}>Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" onClick={()=> handlePageChange ('Contact')}> Contact Me</a>
+            <li className="nav-item">
+              <a className="nav-link link-dark" href="#" onClick={()=> handlePageChange ('Contact')}> Contact Me</a>
             </li>
           </ul>
         </div>
